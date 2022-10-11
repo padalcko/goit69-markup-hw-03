@@ -160,6 +160,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color-text);
+    margin-bottom: 10px;
 }
 
 .advantage-text {
@@ -177,6 +178,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
+    margin-bottom: 50px;
 }
 
 .abaut-list {}
@@ -193,13 +195,16 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
+    margin-bottom: 50px;
 }
 
 .team-list {}
 
 .team-item {}
 
-.team-img {}
+.team-img {
+    margin-bottom: 30px;
+}
 
 .team-img-title {
     font-weight: 500;
@@ -207,6 +212,7 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
+    margin-bottom: 19px;
 }
 
 .team-img-text {
