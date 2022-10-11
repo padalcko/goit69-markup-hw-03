@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 :root {
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
@@ -28,10 +32,35 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0; 
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* HEADER */
 .header {
     background-color: #ffffff;
 }
+
 
 .logo {
     font-family: var(--secondary-font);
@@ -88,6 +117,7 @@ a {
 /* MAIN */
 .hero {
     background-color: var(--secondary-background-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -97,6 +127,8 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 200px;
 }
 
 .hero-button {
@@ -108,6 +140,7 @@ a {
     color: #ffffff;
     cursor: pointer;
     background-color: var(--accent-color-text);
+    margin-bottom: 200px;
 }
 
 .advantage {}
@@ -187,17 +220,21 @@ a {
 
 .footer {
     background-color: var(--secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .adress {}
 
 .logo-footer {
+    display: block;
     font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .adress-list {}
